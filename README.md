@@ -1,4 +1,4 @@
-# weighttracker
+# WeightTracker
 
 Simple, standalone pebble app to record, monitor and track weight loss (or gain) in the last 14 days period. Supports daily reminders and timeline pins. Both unit of measurement (kilograms, stones, pounds) and date format can be configured.
 
