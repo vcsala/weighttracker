@@ -1,0 +1,30 @@
+{
+  "cmd": "pebble",
+  "args": [ "build" ],
+  "sh": true,
+  "errorMatch": [
+    "\n\\.\\.\\/(?<file>([\\/0-9a-zA-Z\\._\\-]+)):(?<line>(\\d+)):(?<col>(\\d+))"
+  ],
+  "targets": {
+    "clean": {
+      "cmd": "pebble",
+      "args": [ "clean"],
+      "sh": true
+    },
+    "emulator-chalk": {
+      "cmd": "pebble",
+      "args": [ "install", "--emulator", "chalk", "--logs" ],
+      "sh": true
+    },
+    "emulator-basalt": {
+      "cmd": "pebble",
+      "args": [ "install", "--emulator", "basalt", "--logs" ],
+      "sh": true
+    },
+    "emulator-aplite": {
+      "cmd": "pebble",
+      "args": [ "install", "--emulator", "aplite", "--logs" ],
+      "sh": true
+    }
+  }
+}
